@@ -1,0 +1,1 @@
+global.bonus = 0;
