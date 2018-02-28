@@ -1,6 +1,8 @@
 action_set_relative(1);
+
 var __b__;
 __b__ = action_if_life(1, 1);
+
 if __b__
 {
 {
@@ -10,15 +12,19 @@ action_restart_game();
 else
 {
 {
+
 __b__ = action_if_number(Bomba, 0, 2);
+
 if __b__
 {
 {
-with (Meteor) {
-action_kill_object();
+with (Meteor)
+{
+  action_kill_object();
 }
 }
 }
+
 __b__ = action_if_number(Meteor, 0, 2);
 if __b__
 {

@@ -4,7 +4,7 @@
 // Only one copy of this should be running
 MakeUnique();
 
-// Keys Enum
+// Keys Enum = keys we want to record
 enum eKey
 {
     LeftPressed = 0,

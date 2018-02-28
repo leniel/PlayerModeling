@@ -1,4 +1,4 @@
-/// @author Alejandro Hitti
+/// @author Leniel Macaferi
 /// @description Gameplay Logic
 
 var moveSpeed = 4;
@@ -8,28 +8,24 @@ var moveSpeed = 4;
 if (_kLeft && !place_meeting(x - moveSpeed, y, Meteor))
 {
     x -= moveSpeed;
-    //sprite_index = sPlayerLeft;
     image_speed = 0.5;
 }
     
 if (_kRight && !place_meeting(x + moveSpeed, y, Meteor))
 {
     x += moveSpeed;
-    //sprite_index = sPlayerRight;
     image_speed = 0.5;
 }
     
 if (_kUp && !place_meeting(x, y - moveSpeed,  Meteor))
 {
     y -= moveSpeed;
-    //sprite_index = sPlayerUp;
     image_speed = 0.5;
 }
     
 if (_kDown && !place_meeting(x, y + moveSpeed,  Meteor))
 {
     y += moveSpeed;
-    //sprite_index = sPlayerDown;
     image_speed = 0.5;
 }
 
@@ -43,7 +39,7 @@ if (!_kLeft && !_kRight && !_kDown && !_kUp)
 // Shot
 if (_kAction)
 {
-action_set_relative(1);
+  action_set_relative(1);
 var __b__;
 __b__ = action_if(global.bonus=1);
 if __b__

@@ -29,3 +29,6 @@ if (player != noone)
     ++_frame;
 }
 
+// If we reached the replay sequence, restart the game...
+if(_index == array_height_2d(_inputSequence))
+  game_restart();

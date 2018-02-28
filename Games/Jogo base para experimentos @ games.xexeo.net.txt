@@ -1,0 +1,22 @@
+http://games.xexeo.net/
+
+Jogo de Tiro no Espaço
+
+Esse jogo mostra o uso de quase todos os tipos de objetos no GameMaker (com exclusão de Shader e Extensões).
+
+É um shot-them-all espacial com bônus, diferentes níveis de dificuldade e também cheat-codes.
+
+Use teclas de direção e espaço para atirar. Estudo o código para descobrir teclas “cheat”.
+
+· Shot3j (GameMaker) – Jogo Instalável em PC – Código
+
+Comentários Sobre o GameMaker
+=============================
+
+§  Há uma diferença de comportamento entre o HTML5 e o .EXE do GameMaker. O jogo Shot3j não funcionou, como programado, em HTML5. Aparentemente a versão Windows aceita algumas coisas mais facilmente.
+
+§  Muitas dessas diferenças estão relacionadas a alarmes.
+
+§  Outro problema é que a ordem de criação dos objetos de uma sala é mais sensível, provavelmente também ligado a um problema de inicialização e variáveis
+
+· É possível que variáveis não inicializadas tenham valores diferentes nas duas plataformas.

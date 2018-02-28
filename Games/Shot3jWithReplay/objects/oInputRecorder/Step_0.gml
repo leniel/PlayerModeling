@@ -40,4 +40,6 @@ if (_kPlay && !_isRecording)
 
 // Runs every frame to play the sequence when needed
 if (_isPlaying)
+{
     PlayInputRecording();
+}

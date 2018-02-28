@@ -1,9 +1,13 @@
+random_set_seed(7);
+
+// Setting variables
+global.frame = 0;
 global.bonus = 0;
 global.standard_score = 5000;
 global.debug = 0;
 global.max_angle = 90;
 global.teste1 = 0;
-action_set_life(2);
+action_set_life(2); // 2 lifes
 action_set_score(0);
 action_set_alarm(30, 0);
 action_set_alarm(random(300), 3);

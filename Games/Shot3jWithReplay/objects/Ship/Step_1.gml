@@ -1,5 +1,6 @@
 var recorder = instance_find(oInputRecorder, 0);
 
+// If recoding is enabled...
 if (recorder != noone && !recorder._isPlaying)
 {
     _kLeft   = keyboard_check(vk_left);
