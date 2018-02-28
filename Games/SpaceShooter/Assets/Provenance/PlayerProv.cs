@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class PlayerProv : MonoBehaviour
 {
-
     public ExtractProvenance prov;
     //public Health hp;
 
-    public void Awake()
+    void Awake()
     {
         // Load provenance pointers
         //hp = GetComponent<Health>();
@@ -120,11 +118,12 @@ public class PlayerProv : MonoBehaviour
     public void Prov_Death()
     {
         Prov_GetPlayerAttributes();
-        prov.NewActivityVertex("Dead");
-        prov.GenerateInfluenceC("Player", GetInstanceID().ToString(), "Respawned", "-1", 1);
-        
-        ExportProv export = new ExportProv();
 
+        prov.NewActivityVertex("Dead");
+
+        prov.GenerateInfluenceC("Player", GetInstanceID().ToString(), "Respawned", "-1", 1);
+
+        ExportProv export = new ExportProv();
         export.Prov_Export();
     }
 

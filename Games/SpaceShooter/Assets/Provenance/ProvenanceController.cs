@@ -164,17 +164,20 @@ public class ProvenanceController : MonoBehaviour
     //=================================================================================================================
     // Export all Provenance information gathered to a XML file
     //=================================================================================================================
-    public void Save(string filename)
+    public void Save(string fileName)
     {
         ProvenanceContainer provContainer = new ProvenanceContainer(vertexList, edgeList);
 
-        //provContainer.Save(Path.Combine(Application.persistentDataPath, "provenancedata.xml"));
-
-        provContainer.Save(Path.Combine(Application.dataPath, filename + ".xml"));
+        if (string.IsNullOrEmpty(fileName))
+        {
+            provContainer.Save(Path.Combine(Application.dataPath, "provenancedata.xml"));
+        }
+        else
+        {
+            provContainer.Save(Path.Combine(Application.dataPath, fileName + ".xml"));
+        }
 
         Debug.Log(Application.dataPath);
-
-        //provContainer.Save("./Files/" + filename + ".xml");
     }
 
     //=================================================================================================================

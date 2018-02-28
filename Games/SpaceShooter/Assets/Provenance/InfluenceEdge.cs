@@ -1,13 +1,11 @@
-﻿using UnityEngine;
-
-/// <summary>
+﻿/// <summary>
 /// 'InfluenceEdge' Class Definition
 /// This script is to define the influenceEdge class
 /// Do not attach this script in any GameObject
 /// It is only necessary to be on your resources folder
 /// The 'InfluenceEdge' class is used for the Provenance-Scripts
 /// </summary>
-public class InfluenceEdge : MonoBehaviour
+public class InfluenceEdge
 {
     public string tag;          // This is the influence tag, which is used to designate actions that can be affected by it
                                 // or to group up various influences for the influence-check process
@@ -25,15 +23,15 @@ public class InfluenceEdge : MonoBehaviour
     //================================================================================================================
     public InfluenceEdge()
     {
-        this.tag = "";
-        this.ID = "";
-        this.source = "";
-        this.type = "";
-        this.infValue = "";
-        this.consumable = false;
-        this.quantity = 1;
-        this.missableID = null;
-        this.expirationTime = -1;
+        tag = "";
+        ID = "";
+        source = "";
+        type = "";
+        infValue = "";
+        consumable = false;
+        quantity = 1;
+        missableID = null;
+        expirationTime = -1;
     }
     /*
     //================================================================================================================
@@ -57,15 +55,15 @@ public class InfluenceEdge : MonoBehaviour
     //================================================================================================================
     public InfluenceEdge(string tag_, string ID_, string source_, string type_, string infValue_, bool consumable_, int quantity_, float expirationTime_)
     {
-        this.tag = tag_;
-        this.ID = ID_;
-        this.source = source_;
-        this.type = type_;
-        this.infValue = infValue_;
-        this.consumable = consumable_;
-        this.quantity = quantity_;
-        this.missableID = null;
-        this.expirationTime = expirationTime_;
+        tag = tag_;
+        ID = ID_;
+        source = source_;
+        type = type_;
+        infValue = infValue_;
+        consumable = consumable_;
+        quantity = quantity_;
+        missableID = null;
+        expirationTime = expirationTime_;
     }
 
     //================================================================================================================
@@ -73,14 +71,14 @@ public class InfluenceEdge : MonoBehaviour
     //================================================================================================================
     public InfluenceEdge(string tag_, string ID_, string source_, string type_, string infValue_, bool consumable_, int quantity_, string _missableID, float expirationTime_)
     {
-        this.tag = tag_;
-        this.ID = ID_;
-        this.source = source_;
-        this.type = type_;
-        this.infValue = infValue_;
-        this.consumable = consumable_;
-        this.quantity = quantity_;
-        this.missableID = _missableID;
-        this.expirationTime = expirationTime_;
+        tag = tag_;
+        ID = ID_;
+        source = source_;
+        type = type_;
+        infValue = infValue_;
+        consumable = consumable_;
+        quantity = quantity_;
+        missableID = _missableID;
+        expirationTime = expirationTime_;
     }
 }

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 //=================================================================================================================
@@ -80,16 +79,22 @@ public class ExtractProvenance : MonoBehaviour
     {
         NewActivityVertex(date_, label_, this.gameObject);
     }
+
     // User defines the Vertex.date field and the gameobject
     public void NewActivityVertex(string date_, string label_, GameObject gameobject_)
     {
-        string oldTarget = currentVertex.type;
+        //string oldTarget = currentVertex.type;
+        string oldTarget = GetCurrentVertex().type;
+
         PopulateAttributes(gameobject_);
+
         currentVertex = provenance.AddVertex(date_, "Activity", label_, attributeList, currentVertex);
+
         if ((agentVertex != null) && (currentVertex.type != "Agent") && (oldTarget != "Agent"))
         {
             provenance.CreateProvenanceEdge(currentVertex, agentVertex);
         }
+
         ClearList();
     }
 
@@ -102,6 +107,7 @@ public class ExtractProvenance : MonoBehaviour
     public void NewAgentVertex(string label_)
     {
         findProvenanceManager();
+
         NewAgentVertex((Time.time).ToString(), label_, this.gameObject);
     }
 
@@ -109,6 +115,7 @@ public class ExtractProvenance : MonoBehaviour
     public void NewAgentVertex(string label_, GameObject gameobject_)
     {
         findProvenanceManager();
+
         NewAgentVertex((Time.time).ToString(), label_, gameobject_);
     }
 
@@ -116,6 +123,7 @@ public class ExtractProvenance : MonoBehaviour
     public void NewAgentVertex(string date_, string label_)
     {
         findProvenanceManager();
+
         NewAgentVertex(date_, label_, this.gameObject);
     }
 
@@ -123,9 +131,13 @@ public class ExtractProvenance : MonoBehaviour
     public void NewAgentVertex(string date_, string label_, GameObject gameobject_)
     {
         findProvenanceManager();
+
         PopulateAttributes(gameobject_);
+
         currentVertex = provenance.AddVertex(date_, "Agent", label_, attributeList, null);
+
         agentVertex = currentVertex;
+
         ClearList();
     }
 
@@ -168,7 +180,9 @@ public class ExtractProvenance : MonoBehaviour
     public void NewEntityVertex(string date_, string label_, GameObject gameobject_)
     {
         PopulateAttributes(gameobject_);
+
         currentVertex = provenance.AddVertex(date_, "Entity", label_, attributeList, currentVertex);
+
         ClearList();
     }
 
@@ -182,13 +196,15 @@ public class ExtractProvenance : MonoBehaviour
     public void NewEntityVertexFromAgent(string date_, string label_, GameObject gameobject_)
     {
         PopulateAttributes(gameobject_);
+
         currentVertex = provenance.AddVertex(date_, "Entity", label_, attributeList, currentVertex);
 
         // Check this if name is to be really used in this case
-        if ((agentVertex != null) && (currentVertex.name != "Agent"))
+        if ((agentVertex != null) && (currentVertex.ID != "Agent"))
         {
             provenance.CreateProvenanceEdge(currentVertex, agentVertex);
         }
+
         ClearList();
     }
 
@@ -208,7 +224,9 @@ public class ExtractProvenance : MonoBehaviour
     public void NewVertex(string date_, string type_, string label_, GameObject gameobject)
     {
         PopulateAttributes(gameobject);
+
         currentVertex = provenance.AddVertex(date_, type_, label_, attributeList, currentVertex);
+
         ClearList();
     }
     //=================================================================================================================
@@ -233,22 +251,22 @@ public class ExtractProvenance : MonoBehaviour
         Attribute attribute;
 
         attribute = new Attribute("ObjectName", gameobject.name.ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
 
         attribute = new Attribute("ObjectTag", gameobject.tag.ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
 
         attribute = new Attribute("ObjectID", gameobject.GetInstanceID().ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
 
         attribute = new Attribute("ObjectPosition_X", gameobject.transform.position.x.ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
 
         attribute = new Attribute("ObjectPosition_Y", gameobject.transform.position.y.ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
 
         attribute = new Attribute("ObjectPosition_Z", gameobject.transform.position.z.ToString());
-        this.attributeList.Add(attribute);
+        attributeList.Add(attribute);
     }
 
     //=================================================================================================================
@@ -257,7 +275,7 @@ public class ExtractProvenance : MonoBehaviour
     //=================================================================================================================
     private void ClearList()
     {
-        this.attributeList = new List<Attribute>();
+        attributeList = new List<Attribute>();
     }
 
     //=================================================================================================================
@@ -318,14 +336,18 @@ public class ExtractProvenance : MonoBehaviour
     public void HasInfluence(string tag)
     {
         if (currentVertex != null)
+        {
             influenceContainer.WasInfluencedByTag(tag, currentVertex.ID);
+        }
     }
 
     // By 'ID'
     public void HasInfluence_ID(string ID)
     {
         if (currentVertex != null)
+        {
             influenceContainer.WasInfluencedByID(ID, currentVertex.ID);
+        }
     }
 
     //=================================================================================================================
@@ -370,7 +392,9 @@ public class ExtractProvenance : MonoBehaviour
     void Awake()
     {
         GameObject ProvObj = GameObject.Find(provenaceGameObjectName);
+
         influenceContainer = ProvObj.GetComponent<InfluenceController>();
+
         provenance = ProvObj.GetComponent<ProvenanceController>();
 
     }
@@ -380,7 +404,9 @@ public class ExtractProvenance : MonoBehaviour
         if (provenance == null)
         {
             GameObject ProvObj = GameObject.Find(provenaceGameObjectName);
+
             influenceContainer = ProvObj.GetComponent<InfluenceController>();
+
             provenance = ProvObj.GetComponent<ProvenanceController>();
         }
     }

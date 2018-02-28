@@ -10,21 +10,32 @@ public class DestroyByContact : MonoBehaviour
 
     private PlayerProv playerProv;
 
-    void Start ()
-	{
-        GameObject gameControllerObject = GameObject.FindGameObjectWithTag ("GameController");
-
-        playerProv = new PlayerProv();
+    private void Awake()
+    {
+        GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
 
         if (gameControllerObject != null)
-		{
-			gameController = gameControllerObject.GetComponent <GameController>();
-		}
-		if (gameController == null)
-		{
-			Debug.Log ("Cannot find 'GameController' script");
-		}
-	}
+        {
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+
+        if (gameController == null)
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
+
+        playerProv = GameObject.FindObjectOfType<PlayerProv>();
+
+        if (playerProv == null)
+        {
+            Debug.Log("Cannot find 'PlayerProv' script");
+        }
+    }
+
+    void Start ()
+	{
+        
+    }
 
 	void OnTriggerEnter (Collider other)
 	{

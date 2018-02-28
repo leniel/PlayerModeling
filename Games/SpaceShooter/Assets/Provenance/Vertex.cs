@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
 //===================================================================================================================
@@ -9,7 +8,7 @@ using System.Xml.Serialization;
 // It is only necessary to be on your resources folder
 // The 'Vertex' class is used for the Provenance-Scripts
 //===================================================================================================================
-public class Vertex : MonoBehaviour
+public class Vertex
 {
     public string ID;       // Vertex' unique ID
     public string type; // Provenance Label for this vertex (Activity, Agent, Entity)
@@ -26,11 +25,11 @@ public class Vertex : MonoBehaviour
     //================================================================================================================
     public Vertex()
     {
-        this.ID = "";
-        this.date = "";
-        this.type = "";
-        this.label = "";
-        this.attributes = new List<Attribute>();
+        ID = "";
+        date = "";
+        type = "";
+        label = "";
+        attributes = new List<Attribute>();
     }
 
     //================================================================================================================
@@ -38,17 +37,17 @@ public class Vertex : MonoBehaviour
     //================================================================================================================
     public Vertex(string id_, string date_, string type_, string label_, List<Attribute> attribute_)
     {
-        this.ID = id_;
-        this.date = date_;
-        this.type = type_;
-        this.label = label_;
+        ID = id_;
+        date = date_;
+        type = type_;
+        label = label_;
 
-        this.attributes = new List<Attribute>();
+        attributes = new List<Attribute>();
 
         //Copy the attribute list
         for (int i = 0; i < attribute_.Count; i++)
         {
-            this.attributes.Add(attribute_[i]);
+            attributes.Add(attribute_[i]);
         }
     }
 }
@@ -67,8 +66,8 @@ public class Attribute
     //================================================================================================================
     public Attribute()
     {
-        this.name = "";
-        this.value = "";
+        name = "";
+        value = "";
     }
 
     //================================================================================================================
@@ -76,7 +75,7 @@ public class Attribute
     //================================================================================================================
     public Attribute(string name_, string att_value_)
     {
-        this.name = name_;
-        this.value = att_value_;
+        name = name_;
+        value = att_value_;
     }
 }

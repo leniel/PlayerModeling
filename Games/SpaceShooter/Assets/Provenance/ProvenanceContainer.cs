@@ -13,7 +13,7 @@ using System.IO;
 //===================================================================================================================
 
 [XmlRoot("provenancedata")]
-public class ProvenanceContainer : MonoBehaviour
+public class ProvenanceContainer
 {
     [XmlArray("vertices")]
     [XmlArrayItem("vertex")]

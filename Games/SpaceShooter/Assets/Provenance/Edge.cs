@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Edge : MonoBehaviour
+public class Edge
 {
     public string ID;               // Edge's Unique ID
     public string type;         // Provenance type for this edge
@@ -14,12 +14,12 @@ public class Edge : MonoBehaviour
     //================================================================================================================
     public Edge()
     {
-        this.ID = "";
-        this.type = "";
-        this.label = "";
-        this.value = "";
-        this.sourceID = "";
-        this.targetID = "";
+        ID = "";
+        type = "";
+        label = "";
+        value = "";
+        sourceID = "";
+        targetID = "";
     }
 
     //================================================================================================================
@@ -27,11 +27,11 @@ public class Edge : MonoBehaviour
     //================================================================================================================
     public Edge(string id_, string label_, string type_, string edge_value_, string sourceID_, string targetID_)
     {
-        this.ID = id_;
-        this.type = type_;
-        this.label = label_;
-        this.value = edge_value_;
-        this.sourceID = sourceID_;
-        this.targetID = targetID_;
+        ID = id_;
+        type = type_;
+        label = label_;
+        value = edge_value_;
+        sourceID = sourceID_;
+        targetID = targetID_;
     }
 }
