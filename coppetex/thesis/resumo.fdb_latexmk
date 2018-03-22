@@ -1,0 +1,12 @@
+# Fdb version 3
+["latex"] 1521695605 "resumo.tex" "resumo.dvi" "resumo" 1521695605
+  "resumo.tex" 1297191400 65 176a259f294732a75301e3b48338bfa8 ""
+  (generated)
+  "resumo.dvi"
+  "resumo.log"
+["pdflatex"] 1521694774 "resumo.tex" "resumo.pdf" "resumo" 1521694774
+  "resumo.aux" 1521694721 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resumo.tex" 1297191400 65 176a259f294732a75301e3b48338bfa8 ""
+  (generated)
+  "resumo.log"
+  "resumo.pdf"

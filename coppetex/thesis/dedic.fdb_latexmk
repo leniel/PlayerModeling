@@ -1,0 +1,12 @@
+# Fdb version 3
+["latex"] 1521695600 "dedic.tex" "dedic.dvi" "dedic" 1521695600
+  "dedic.tex" 1297191400 67 a938a5ed5a55cd3b827313b45e7f68e4 ""
+  (generated)
+  "dedic.dvi"
+  "dedic.log"
+["pdflatex"] 1521694769 "dedic.tex" "dedic.pdf" "dedic" 1521694769
+  "dedic.aux" 1521694716 8 a94a2480d3289e625eea47cd1b285758 ""
+  "dedic.tex" 1297191400 67 a938a5ed5a55cd3b827313b45e7f68e4 ""
+  (generated)
+  "dedic.log"
+  "dedic.pdf"

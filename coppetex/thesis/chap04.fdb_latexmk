@@ -1,0 +1,12 @@
+# Fdb version 3
+["latex"] 1521695591 "chap04.tex" "chap04.dvi" "chap04" 1521695591
+  "chap04.tex" 1297191400 35 39680f90784ed8bf07834185c84c142f ""
+  (generated)
+  "chap04.log"
+  "chap04.dvi"
+["pdflatex"] 1521694759 "chap04.tex" "chap04.pdf" "chap04" 1521694759
+  "chap04.aux" 1521694707 8 a94a2480d3289e625eea47cd1b285758 ""
+  "chap04.tex" 1297191400 35 39680f90784ed8bf07834185c84c142f ""
+  (generated)
+  "chap04.log"
+  "chap04.pdf"

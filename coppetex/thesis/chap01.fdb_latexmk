@@ -1,0 +1,12 @@
+# Fdb version 3
+["latex"] 1521695578 "chap01.tex" "chap01.dvi" "chap01" 1521695578
+  "chap01.tex" 1521692911 3376 39c010fce38eeb6fac82a05969baa555 ""
+  (generated)
+  "chap01.dvi"
+  "chap01.log"
+["pdflatex"] 1521694745 "chap01.tex" "chap01.pdf" "chap01" 1521694745
+  "chap01.aux" 1521694692 8 a94a2480d3289e625eea47cd1b285758 ""
+  "chap01.tex" 1521692911 3376 39c010fce38eeb6fac82a05969baa555 ""
+  (generated)
+  "chap01.log"
+  "chap01.pdf"

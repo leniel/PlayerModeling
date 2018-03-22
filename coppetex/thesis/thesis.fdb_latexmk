@@ -1,0 +1,11 @@
+# Fdb version 3
+["latex"] 1521695615 "thesis.tex" "thesis.dvi" "thesis" 1521695615
+  "thesis.tex" 1521684092 1437 6e2edb4e7b9e9958b5229c72f2ef01a2 ""
+  (generated)
+  "thesis.log"
+  "thesis.dvi"
+["pdflatex"] 1521694784 "thesis.tex" "thesis.pdf" "thesis" 1521694784
+  "thesis.tex" 1521684092 1437 6e2edb4e7b9e9958b5229c72f2ef01a2 ""
+  (generated)
+  "thesis.log"
+  "thesis.pdf"
