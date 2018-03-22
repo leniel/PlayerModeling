@@ -640,8 +640,8 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \let\item\@idxitem}
   {\if@restonecol\onecolumn\else\clearpage\fi}
 \newcommand\glossaryname{Glossary}
-\newcommand\listabbreviationname{Lista de Abreviaturas}
-\newcommand\listsymbolname{Lista de S{\' i}mbolos}
+\newcommand\listabbreviationname{List of Abbreviations}
+\newcommand\listsymbolname{List of Symbols}
 \newcommand\local@advisorstring{Orientador}
 \newcommand\foreign@advisorstring{Advisor}
 \ifthenelse{\boolean{maledoc}}{%

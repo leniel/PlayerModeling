@@ -1,0 +1,62 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Smith}\emph{ et~al.}()Smith, Lewis, Hullett, Smith, e
+  Sullivan]{SmithInclusiveTaxonomyPlayer}
+\MakeUppercase{Smith, A.~M., Lewis, C., Hullett, K., \MakeLowercase{et~al.}}
+\newblock \enquote{An {{Inclusive Taxonomy}} of {{Player Modeling}}}, p.~19.
+
+\bibitem[\MakeUppercase{Nareyek}(2004)Nareyek]{NareyekAIComputerGames2004}
+\MakeUppercase{Nareyek, A.}
+\newblock \enquote{{{AI}} in {{Computer Games}}}, \emph{ACM Queue}, v.~1,
+  \penalty0 pp.~58--65, fev. 2004.
+\newblock \doi{10.1145/971564.971593}.
+
+\bibitem[\MakeUppercase{Yannakakis}\emph{ et~al.}(2011)Yannakakis, Karpouzis,
+  Paiva, e Hudlicka]{YannakakisEmotionGames2011}
+\MakeUppercase{Yannakakis, G.~N., Karpouzis, K., Paiva, A.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{Emotion in {{Games}}}. In: D'Mello, S., Graesser, A.,
+  Schuller, B., \MakeLowercase{et~al.} (Eds.), \emph{Affective {{Computing}}
+  and {{Intelligent Interaction}}}, v. 6975, {Springer Berlin Heidelberg}, pp.
+  497--497, Berlin, Heidelberg, 2011.
+\newblock ISBN: 978-3-642-24570-1 978-3-642-24571-8.
+\newblock \doi{10.1007/978-3-642-24571-8_62}.
+\newblock \url{http://link.springer.com/10.1007/978-3-642-24571-8_62}.
+
+\bibitem[\MakeUppercase{Yannakakis}\emph{ et~al.}(2013)Yannakakis, Spronck,
+  Loiacono, e Andr{\'e}]{YannakakisPlayerModeling2013}
+\MakeUppercase{Yannakakis, G.~N., Spronck, P., Loiacono, D.,
+  \MakeLowercase{et~al.}}
+\newblock \emph{Player {{Modeling}}}.
+\newblock Technical report, {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik
+  GmbH, Wadern/Saarbruecken, Germany}, 2013.
+
+\bibitem[\MakeUppercase{Mu{\~n}oz}\emph{ et~al.}(2010)Mu{\~n}oz, Kevitt,
+  Lunney, Noguez, e Neri]{MunozPlayPhysicsEmotionalGames2010}
+\MakeUppercase{Mu{\~n}oz, K., Kevitt, P.~M., Lunney, T.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{{{PlayPhysics}}: {{An Emotional Games Learning Environment}}
+  for {{Teaching Physics}}}. In: Hutchison, D., Kanade, T., Kittler, J.,
+  \MakeLowercase{et~al.} (Eds.), \emph{Knowledge {{Science}}, {{Engineering}}
+  and {{Management}}}, v. 6291, {Springer Berlin Heidelberg}, pp. 400--411,
+  Berlin, Heidelberg, 2010.
+\newblock ISBN: 978-3-642-15279-5 978-3-642-15280-1.
+\newblock \doi{10.1007/978-3-642-15280-1_37}.
+\newblock \url{http://link.springer.com/10.1007/978-3-642-15280-1_37}.
+
+\bibitem[\MakeUppercase{Yannakakis}(2012)Yannakakis]{YannakakisGameAIRevisited2012}
+\MakeUppercase{Yannakakis, G.~N.}
+\newblock \enquote{Game {{AI Revisited}}}. In: \emph{Proceedings of the 9th
+  {{Conference}} on {{Computing Frontiers}}}, CF '12, pp. 285--292, New York,
+  NY, USA, 2012. {ACM}.
+\newblock ISBN: 978-1-4503-1215-8.
+\newblock \doi{10.1145/2212908.2212954}.
+\newblock \url{http://doi.acm.org/10.1145/2212908.2212954}.
+
+\end{thebibliography}

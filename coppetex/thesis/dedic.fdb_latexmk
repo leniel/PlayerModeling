@@ -1,11 +1,12 @@
 # Fdb version 3
-["latex"] 1521695600 "dedic.tex" "dedic.dvi" "dedic" 1521695600
+["latex"] 1521696444 "dedic.tex" "dedic.dvi" "dedic" 1521696444
   "dedic.tex" 1297191400 67 a938a5ed5a55cd3b827313b45e7f68e4 ""
   (generated)
   "dedic.dvi"
   "dedic.log"
-["pdflatex"] 1521694769 "dedic.tex" "dedic.pdf" "dedic" 1521694769
-  "dedic.aux" 1521694716 8 a94a2480d3289e625eea47cd1b285758 ""
+["pdflatex"] 1521700667 "dedic.tex" "dedic.pdf" "dedic" 1521700667
+  "C:/Users/leniel/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1521697200 4080590 4cbe3e4a8bd53260f903cc815ba264d1 ""
+  "dedic.aux" 1521700509 705 53fe60b1885fff0005ed2fb8ff569024 ""
   "dedic.tex" 1297191400 67 a938a5ed5a55cd3b827313b45e7f68e4 ""
   (generated)
   "dedic.log"

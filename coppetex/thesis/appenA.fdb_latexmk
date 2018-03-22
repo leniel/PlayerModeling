@@ -1,12 +1,8 @@
 # Fdb version 3
-["latex"] 1521695573 "appenA.tex" "appenA.dvi" "appenA" 1521695573
+["pdflatex"] 1521700665 "appenA.tex" "appenA.pdf" "appenA" 1521700666
+  "C:/Users/leniel/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1521697200 4080590 4cbe3e4a8bd53260f903cc815ba264d1 ""
+  "appenA.aux" 1521700509 887 6b63cadcc87a5049cd4a1cf0b41c1fed ""
   "appenA.tex" 1297191400 39 4a06ff9b228dee95a7b1970d35133e27 ""
   (generated)
-  "appenA.dvi"
-  "appenA.log"
-["pdflatex"] 1521694740 "appenA.tex" "appenA.pdf" "appenA" 1521694740
-  "appenA.aux" 1521694687 8 a94a2480d3289e625eea47cd1b285758 ""
-  "appenA.tex" 1297191400 39 4a06ff9b228dee95a7b1970d35133e27 ""
-  (generated)
-  "appenA.log"
   "appenA.pdf"
+  "appenA.log"
