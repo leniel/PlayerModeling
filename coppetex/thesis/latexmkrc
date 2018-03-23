@@ -1,0 +1,1 @@
+$pdf_previewer = 'start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %O %S';

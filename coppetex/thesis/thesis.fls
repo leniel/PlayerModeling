@@ -189,6 +189,8 @@ INPUT resumo.tex
 OUTPUT abstract.aux
 INPUT abstract.tex
 INPUT abstract.tex
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
 INPUT thesis.toc
 INPUT thesis.toc
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
@@ -231,6 +233,8 @@ INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb

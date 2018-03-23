@@ -3,8 +3,19 @@ Scanning style file ./coppe.ist....
 ** Input style error (file = ./coppe.ist, line = 51):
    -- Unknown specifier lethead_flag.
 ...done (7 attributes redefined, 1 ignored).
+Scanning input file thesis.lab...
+!! Input index error (file = thesis.lab, line = 2):
+   -- Unknown index keyword \begin.
+!! Input index error (file = thesis.lab, line = 3):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = thesis.lab, line = 4):
+   -- Unknown index keyword \item[AI]ArtificialIntelligence,p.\hyperpage.
+!! Input index error (file = thesis.lab, line = 5):
+   -- Unknown index keyword \end.
+done (0 entries accepted, 4 rejected).
 Scanning input file thesis.abx....done (1 entries accepted, 0 rejected).
+Overall 2 files read (1 entries accepted, 4 rejected).
 Sorting entries...done (0 comparisons).
-Generating output file thesis.lab....done (5 lines written, 0 warnings).
-Output written in thesis.lab.
+Generating output file thesis.ind....done (5 lines written, 0 warnings).
+Output written in thesis.ind.
 Transcript written in thesis.ilg.
