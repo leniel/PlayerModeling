@@ -1,0 +1,101 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\providecommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Smith}\emph{ et~al.}()Smith, Lewis, Hullett, Smith, e
+  Sullivan]{SmithInclusiveTaxonomyPlayer}
+\MakeUppercase{Smith, A.~M., Lewis, C., Hullett, K., \MakeLowercase{et~al.}}
+\newblock \enquote{An {{Inclusive Taxonomy}} of {{Player Modeling}}}, p.~19.
+
+\bibitem[\MakeUppercase{Nareyek}(2004)Nareyek]{NareyekAIComputerGames2004}
+\MakeUppercase{Nareyek, A.}
+\newblock \enquote{{{AI}} in {{Computer Games}}}, \emph{ACM Queue}, v.~1,
+  \penalty0 pp.~58--65, fev. 2004.
+\newblock \doi{10.1145/971564.971593}.
+
+\bibitem[\MakeUppercase{Yannakakis}\emph{ et~al.}(2011)Yannakakis, Karpouzis,
+  Paiva, e Hudlicka]{YannakakisEmotionGames2011}
+\MakeUppercase{Yannakakis, G.~N., Karpouzis, K., Paiva, A.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{Emotion in {{Games}}}. In: D'Mello, S., Graesser, A.,
+  Schuller, B., \MakeLowercase{et~al.} (Eds.), \emph{Affective {{Computing}}
+  and {{Intelligent Interaction}}}, v. 6975, {Springer Berlin Heidelberg}, pp.
+  497--497, Berlin, Heidelberg, 2011.
+\newblock ISBN: 978-3-642-24570-1 978-3-642-24571-8.
+\newblock \doi{10.1007/978-3-642-24571-8_62}.
+\newblock Accessed on: 7 June 2017.
+\newblock \url{http://link.springer.com/10.1007/978-3-642-24571-8_62}.
+
+\bibitem[\MakeUppercase{Yannakakis}\emph{ et~al.}(2013)Yannakakis, Spronck,
+  Loiacono, e Andr{\'e}]{YannakakisPlayerModeling2013}
+\MakeUppercase{Yannakakis, G.~N., Spronck, P., Loiacono, D.,
+  \MakeLowercase{et~al.}}
+\newblock \emph{Player {{Modeling}}}.
+\newblock Technical report, {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik
+  GmbH, Wadern/Saarbruecken, Germany}, 2013.
+
+\bibitem[\MakeUppercase{Yannakakis}(2012)Yannakakis]{YannakakisGameAIRevisited2012}
+\MakeUppercase{Yannakakis, G.~N.}
+\newblock \enquote{Game {{AI Revisited}}}. In: \emph{Proceedings of the 9th
+  {{Conference}} on {{Computing Frontiers}}}, CF '12, pp. 285--292, New York,
+  NY, USA, 2012. {ACM}.
+\newblock ISBN: 978-1-4503-1215-8.
+\newblock \doi{10.1145/2212908.2212954}.
+\newblock Accessed on: 21 March 2018.
+\newblock \url{http://doi.acm.org/10.1145/2212908.2212954}.
+
+\bibitem[Gam()]{Gameusabilityjnd}
+\enquote{Game Usability - Jnd.Org}.
+  \url{https://www.jnd.org/dn.mss/game_usability.html}.
+\newblock Accessed on: 23 March 2018.
+
+\bibitem[\MakeUppercase{Strevens}()Strevens]{StrevensWhatEmpiricalTesting}
+\MakeUppercase{Strevens, M.}
+\newblock \enquote{What {{Is Empirical Testing}}?} p.~33.
+
+\bibitem[\MakeUppercase{Malone}(1980)Malone]{MaloneWhatMakesThings1980}
+\MakeUppercase{Malone, T.~W.}
+\newblock \enquote{What {{Makes Things Fun}} to {{Learn}}? {{Heuristics}} for
+  {{Designing Instructional Computer Games}}}. In: \emph{Proceedings of the 3rd
+  {{ACM SIGSMALL Symposium}} and the {{First SIGPC Symposium}} on {{Small
+  Systems}}}, SIGSMALL '80, pp. 162--169, New York, NY, USA, 1980. {ACM}.
+\newblock ISBN: 978-0-89791-024-8.
+\newblock \doi{10.1145/800088.802839}.
+\newblock Accessed on: 23 March 2018.
+\newblock \url{http://doi.acm.org/10.1145/800088.802839}.
+
+\bibitem[The()]{TheoryFunGame}
+\enquote{A {{Theory}} of {{Fun}} for {{Game Design}}}.
+  \url{https://www.theoryoffun.com/}.
+\newblock Accessed on: 23 March 2018.
+
+\bibitem[\MakeUppercase{Xex{\'e}o}(2013)Xex{\'e}o]{XexeoGeraldoquesaoJogos2013}
+\MakeUppercase{Xex{\'e}o, G.}
+\newblock \enquote{{O que s{\~a}o Jogos?}}
+  \url{http://ludes.cos.ufrj.br/wp-content/uploads/2016/07/LJP1C01-O-que-sao-jogos-v2.pdf},
+  2013.
+\newblock Accessed on: 23 March 2018.
+
+\bibitem[\MakeUppercase{Calleja}(2011)Calleja]{CallejaIngameimmersionincorporation2011}
+\MakeUppercase{Calleja, G.}
+\newblock \emph{In-Game: From Immersion to Incorporation}.
+\newblock  Cambridge, Mass, {MIT Press}, 2011.
+\newblock ISBN: 978-0-262-01546-2.
+\newblock OCLC: ocn666402870.
+
+\bibitem[New()]{NewGamingBoom}
+\enquote{New {{Gaming Boom}}: {{Newzoo Ups Its}} 2017 {{Global Games Market
+  Estimate}} to \$116.{{0Bn Growing}} to \$143.{{5Bn}} in 2020}.
+  \url{https://newzoo.com/insights/articles/new-gaming-boom-newzoo-ups-its-2017-global-games-market-estimate-to-116-0bn-growing-to-143-5bn-in-2020/}.
+\newblock Accessed on: 23 March 2018.
+
+\bibitem[Glo()]{GlobalGamesMarket}
+\enquote{The {{Global Games Market}} 2017 | {{Per Region}} \& {{Segment}}}.
+  \url{https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/}.
+\newblock Accessed on: 23 March 2018.
+
+\end{thebibliography}

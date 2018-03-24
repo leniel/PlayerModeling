@@ -286,7 +286,7 @@ FUNCTION {format.url}
 FUNCTION {format.access}
 { access empty$
     { "" }
-    { new.block "Acesso em: " access * }
+    { new.block "Accessed on: " access * }
   if$
 }
 
@@ -1316,7 +1316,7 @@ FUNCTION {begin.bib}
   write$ newline$
   "  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi"
   write$ newline$
-    "\newcommand{\enquote}[1]{``#1''}"
+    "\providecommand{\enquote}[1]{``#1''}"
   write$ newline$
 }
 

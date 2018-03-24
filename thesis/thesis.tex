@@ -1,10 +1,14 @@
 \documentclass[msc,numbers]{coppe}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
-\usepackage{hyperref}
 \usepackage{color}
+\usepackage[hyphens]{url}
+\usepackage[colorlinks,linkcolor={black},citecolor={black},urlcolor={black}]{hyperref}
 \usepackage{makeidx}
-\hypersetup{colorlinks,linkcolor={black},citecolor={black}}
+\usepackage{graphicx}
+\usepackage{csquotes}
+
+\graphicspath{{pictures/}}
 
 \makelosymbols
 \makeloabbreviations
@@ -14,14 +18,14 @@
   \foreigntitle{Player Modeling with Provenance}
   \author{Leniel}{Maccaferri}
   \advisor{Prof.}{Geraldo}{Xexéo}{D.Sc.}
-  \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
-  \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
+  % \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
+  % \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
 
   \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
   \examiner{Prof.}{Nome do Segundo Examinador Sobrenome}{Ph.D.}
   \examiner{Prof.}{Nome do Terceiro Examinador Sobrenome}{D.Sc.}
-  \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
-  \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
+  % \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
+  % \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
   \department{PESC}
   \date{03}{2019}
 
@@ -44,10 +48,11 @@
 
   \mainmatter
   \include{chap01}
+  \include{chap02}
 
   \backmatter
   \bibliographystyle{coppe-unsrt}
-  \bibliography{thesis,player-modeling}
+  \bibliography{player-modeling}
 
   \appendix
   \include{appenA}

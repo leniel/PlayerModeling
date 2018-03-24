@@ -4,11 +4,18 @@ A level-1 auxiliary file: thanks.aux
 A level-1 auxiliary file: resumo.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: chap01.aux
+A level-1 auxiliary file: chap02.aux
 The style file: coppe-unsrt.bst
 A level-1 auxiliary file: appenA.aux
-Database file #1: thesis.bib
-Database file #2: player-modeling.bib
+Database file #1: player-modeling.bib
 Warning--empty journal in SmithInclusiveTaxonomyPlayer
 Warning--empty year in SmithInclusiveTaxonomyPlayer
 Warning--empty year in SmithInclusiveTaxonomyPlayer
-(There were 3 warnings)
+Warning--empty year in Gameusabilityjnd
+Warning--empty journal in StrevensWhatEmpiricalTesting
+Warning--empty year in StrevensWhatEmpiricalTesting
+Warning--empty year in StrevensWhatEmpiricalTesting
+Warning--empty year in TheoryFunGame
+Warning--empty year in NewGamingBoom
+Warning--empty year in GlobalGamesMarket
+(There were 10 warnings)

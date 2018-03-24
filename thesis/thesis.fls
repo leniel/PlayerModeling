@@ -1,6 +1,6 @@
-PWD c:/Repos/PlayerModeling/coppetex/thesis
+PWD c:/PlayerModeling/thesis
 INPUT C:/Users/leniel/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT c:/Repos/PlayerModeling/coppetex/thesis/thesis.tex
+INPUT c:/PlayerModeling/thesis/thesis.tex
 OUTPUT thesis.log
 INPUT coppe.cls
 INPUT coppe.cls
@@ -86,6 +86,12 @@ INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssy
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -101,18 +107,20 @@ INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1en
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/makeidx.sty
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/makeidx.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.def
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.def
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.cfg
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/csquotes/csquotes.cfg
 OUTPUT thesis.syx
 OUTPUT thesis.abx
 INPUT thesis.aux
@@ -127,6 +135,8 @@ INPUT abstract.aux
 INPUT abstract.aux
 INPUT chap01.aux
 INPUT chap01.aux
+INPUT chap02.aux
+INPUT chap02.aux
 INPUT appenA.aux
 INPUT appenA.aux
 OUTPUT thesis.aux
@@ -174,10 +184,10 @@ INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfont
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT C:/Users/leniel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT dedic.aux
 INPUT dedic.tex
 INPUT dedic.tex
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT thanks.aux
 INPUT thanks.tex
 INPUT thanks.tex
@@ -206,6 +216,26 @@ INPUT thesis.lab
 OUTPUT chap01.aux
 INPUT chap01.tex
 INPUT chap01.tex
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT pictures/playermodelcomponents.png
+INPUT ./pictures/playermodelcomponents.png
+INPUT ./pictures/playermodelcomponents.png
+INPUT ./pictures/playermodelcomponents.png
+INPUT ./pictures/playermodelcomponents.png
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+OUTPUT chap02.aux
+INPUT chap02.tex
+INPUT chap02.tex
 INPUT thesis.bbl
 INPUT thesis.bbl
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
@@ -223,6 +253,8 @@ INPUT abstract.aux
 INPUT abstract.aux
 INPUT chap01.aux
 INPUT chap01.aux
+INPUT chap02.aux
+INPUT chap02.aux
 INPUT appenA.aux
 INPUT appenA.aux
 INPUT ./thesis.out
@@ -231,8 +263,14 @@ INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
