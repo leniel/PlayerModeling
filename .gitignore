@@ -50,6 +50,8 @@ sysinfo.txt
 *.cb
 *.cb2
 .*.lb
+*.lab
+*.syx
 
 ## Intermediate documents:
 *.dvi
