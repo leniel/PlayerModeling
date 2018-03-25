@@ -279,7 +279,14 @@ FUNCTION {format.issn}
 FUNCTION {format.url}
 { url empty$
     { "" }
-    { new.block "Dispon{\' i}vel em: \textless\url{" url * "}\textgreater " * }
+    { new.block "Available at: \textless\url{" url * "}\textgreater " * }
+  if$
+}
+
+FUNCTION {format.howpublished}
+{ howpublished empty$
+    { "" }
+    { new.block "Available at: \textless" howpublished * "\textgreater" * }
   if$
 }
 
@@ -795,10 +802,8 @@ FUNCTION {book}
   format.date "year" output.check
   format.isbn output
   format.doi output
-  format.url output
+  format.howpublished output
   format.access output
-  new.block
-  note output
   fin.entry
 }
 % TODO:
@@ -815,10 +820,8 @@ FUNCTION {booklet}
   format.date output
   format.isbn output
   format.doi output
-  format.url output
+  format.howpublished output
   format.access output
-  new.block
-  note output
   fin.entry
 }
 
@@ -854,10 +857,8 @@ FUNCTION {inbook}
   format.date "year" output.check
   format.isbn output
   format.doi output
-  format.url output
+  format.howpublished output
   format.access output
-  new.block
-  note output
   fin.entry
 }
 
@@ -884,10 +885,8 @@ FUNCTION {incollection}
   if$
   format.isbn output
   format.doi output
-  format.url output
+  format.howpublished output
   format.access output
-  new.block
-  note output
   fin.entry
 }
 
@@ -928,10 +927,8 @@ FUNCTION {inproceedings}
   if$
   format.isbn output
   format.doi output
-  format.url output
+  format.howpublished output
   format.access output
-  new.block
-  note output
   fin.entry
 }
 
@@ -981,13 +978,11 @@ FUNCTION {misc}
   format.intitle output
   end.quote.title
   howpublished new.block.checka
-  howpublished output
+  format.howpublished output
   format.date output
   format.issn output
   format.url output
   format.access output
-  new.block
-  note output
   fin.entry
   empty.misc.check
 }

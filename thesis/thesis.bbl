@@ -27,8 +27,9 @@
   497--497, Berlin, Heidelberg, 2011.
 \newblock ISBN: 978-3-642-24570-1 978-3-642-24571-8.
 \newblock \doi{10.1007/978-3-642-24571-8_62}.
+\newblock Available at:
+  \textless\url{http://link.springer.com/10.1007/978-3-642-24571-8_62}\textgreater.
 \newblock Accessed on: 7 June 2017.
-\newblock \url{http://link.springer.com/10.1007/978-3-642-24571-8_62}.
 
 \bibitem[\MakeUppercase{Yannakakis}\emph{ et~al.}(2013)Yannakakis, Spronck,
   Loiacono, e Andr{\'e}]{YannakakisPlayerModeling2013}
@@ -45,12 +46,13 @@
   NY, USA, 2012. {ACM}.
 \newblock ISBN: 978-1-4503-1215-8.
 \newblock \doi{10.1145/2212908.2212954}.
+\newblock Available at:
+  \textless\url{http://doi.acm.org/10.1145/2212908.2212954}\textgreater.
 \newblock Accessed on: 21 March 2018.
-\newblock \url{http://doi.acm.org/10.1145/2212908.2212954}.
 
 \bibitem[Gam()]{Gameusabilityjnd}
-\enquote{Game Usability - Jnd.Org}.
-  \url{https://www.jnd.org/dn.mss/game_usability.html}.
+\enquote{Game Usability - Jnd.Org}. Available at:
+  \textless\url{https://www.jnd.org/dn.mss/game_usability.html}\textgreater.
 \newblock Accessed on: 23 March 2018.
 
 \bibitem[\MakeUppercase{Strevens}()Strevens]{StrevensWhatEmpiricalTesting}
@@ -65,18 +67,19 @@
   Systems}}}, SIGSMALL '80, pp. 162--169, New York, NY, USA, 1980. {ACM}.
 \newblock ISBN: 978-0-89791-024-8.
 \newblock \doi{10.1145/800088.802839}.
+\newblock Available at:
+  \textless\url{http://doi.acm.org/10.1145/800088.802839}\textgreater.
 \newblock Accessed on: 23 March 2018.
-\newblock \url{http://doi.acm.org/10.1145/800088.802839}.
 
 \bibitem[The()]{TheoryFunGame}
-\enquote{A {{Theory}} of {{Fun}} for {{Game Design}}}.
-  \url{https://www.theoryoffun.com/}.
+\enquote{A {{Theory}} of {{Fun}} for {{Game Design}}}. Available at:
+  \textless\url{https://www.theoryoffun.com/}\textgreater.
 \newblock Accessed on: 23 March 2018.
 
 \bibitem[\MakeUppercase{Xex{\'e}o}(2013)Xex{\'e}o]{XexeoGeraldoquesaoJogos2013}
 \MakeUppercase{Xex{\'e}o, G.}
-\newblock \enquote{{O que s{\~a}o Jogos?}}
-  \url{http://ludes.cos.ufrj.br/wp-content/uploads/2016/07/LJP1C01-O-que-sao-jogos-v2.pdf},
+\newblock \enquote{{O que s{\~a}o Jogos?}} Available at:
+  \textless\url{http://ludes.cos.ufrj.br/wp-content/uploads/2016/07/LJP1C01-O-que-sao-jogos-v2.pdf}\textgreater,
   2013.
 \newblock Accessed on: 23 March 2018.
 
@@ -85,17 +88,17 @@
 \newblock \emph{In-Game: From Immersion to Incorporation}.
 \newblock  Cambridge, Mass, {MIT Press}, 2011.
 \newblock ISBN: 978-0-262-01546-2.
-\newblock OCLC: ocn666402870.
 
 \bibitem[New()]{NewGamingBoom}
 \enquote{New {{Gaming Boom}}: {{Newzoo Ups Its}} 2017 {{Global Games Market
-  Estimate}} to \$116.{{0Bn Growing}} to \$143.{{5Bn}} in 2020}.
-  \url{https://newzoo.com/insights/articles/new-gaming-boom-newzoo-ups-its-2017-global-games-market-estimate-to-116-0bn-growing-to-143-5bn-in-2020/}.
+  Estimate}} to \$116.{{0Bn Growing}} to \$143.{{5Bn}} in 2020}. Available at:
+  \textless\url{https://newzoo.com/insights/articles/new-gaming-boom-newzoo-ups-its-2017-global-games-market-estimate-to-116-0bn-growing-to-143-5bn-in-2020/}\textgreater.
 \newblock Accessed on: 23 March 2018.
 
 \bibitem[Glo()]{GlobalGamesMarket}
 \enquote{The {{Global Games Market}} 2017 | {{Per Region}} \& {{Segment}}}.
-  \url{https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/}.
+  Available at:
+  \textless\url{https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/}\textgreater.
 \newblock Accessed on: 23 March 2018.
 
 \end{thebibliography}

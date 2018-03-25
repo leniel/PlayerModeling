@@ -238,6 +238,8 @@ INPUT chap02.tex
 INPUT chap02.tex
 INPUT thesis.bbl
 INPUT thesis.bbl
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
+INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
 INPUT C:/Users/leniel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
 OUTPUT appenA.aux
 INPUT appenA.tex

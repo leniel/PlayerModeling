@@ -1,2 +1,57 @@
 {
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    "files.autoSave": "off",
+
+    "workbench.startupEditor": "newUntitledFile",
+
+    "editor.wordWrap": "on",
+
+    //"explorer.sortOrder": "type",
+
+    "latex-workshop.latex.autoBuild.onTexChange.enabled": false,
+    "latex-workshop.viewer": "",
+    "latex-workshop.latexindent.path": "C:\\Temp\\latexindent.exe",
+
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.latex.clean.fileTypes": ["*.log", "*.fdb_latexmk", ".fls"],
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "latexmk",
+            "args": [
+                //"-synctex=1",
+                // "-interaction=nonstopmode",
+                // "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+         // makeindex -s coppe.ist -o tese.lab tese.abx
+            // makeindex -s coppe.ist -o tese.los tese.syx
+            "command": "makeindex",
+            "args": [
+                "-s",
+                "coppe.ist",
+                "-o",
+                "thesis.lab",
+                "thesis.abx"
+            ]
+        },
+        {
+            "command": "latexmk",
+            "args": [
+                //"-synctex=1",
+                // "-interaction=nonstopmode",
+                // "-file-line-error",
+                // "-c",
+                "-pdf",
+                "-pv",
+                "%DOC%"
+            ]
+        },
+    ],
+    "explorer.confirmDelete": false,
 }
