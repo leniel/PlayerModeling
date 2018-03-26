@@ -1,0 +1,87 @@
+{
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/._*": true,
+        "**/*.abx": true,
+        "**/*.fls": true,
+        "**/*.bbl": true,
+        "**/*.dvi": true,
+        "**/*.lab": true,
+        "**/*.lof": true,
+        "**/*.out": true,
+        "**/*.lot": true,
+        "**/*.blg": true,
+        "**/*.ilg": true,
+        "**/*.syx": true,
+        "**/*.tdo": true,
+        "**/*.toc": true,
+    },
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "files.autoSave": "off",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.wordWrap": "on",
+    //"explorer.sortOrder": "type",
+    "latex-workshop.latex.autoBuild.onTexChange.enabled": false,
+    "latex-workshop.latex.autoBuild.onSave.enabled": false,
+    "latex-workshop.viewer": "",
+    "latex-workshop.latexindent.path": "C:\\Temp\\latexindent.exe",
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.log",
+        "*.fdb_latexmk",
+        ".fls"
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk-nopdfview",
+                "makeindex",
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                //"-synctex=1",
+                // "-interaction=nonstopmode",
+                // "-file-line-error",
+                // "-c",
+                "-pdf",
+                "-pv", // PDF viewer is configured in the file latexmkrc
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "latexmk-nopdfview",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "makeindex",
+            "command": "makeindex",
+            "args": [
+                "-s",
+                "coppe.ist",
+                "-o",
+                "thesis.lab",
+                "thesis.abx"
+            ]
+        }
+    ],
+    "spellright.language": "en",
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}

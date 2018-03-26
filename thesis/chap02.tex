@@ -1,18 +1,19 @@
-\chapter{Games}
-In this work player modeling is applied to electronic games. What follows is a brief background information about what constitutes a game.
+\chapter{Literature Review}
+In this work player modeling is applied to electronic games. What follows is a brief background information about the main topics discussed in this work.
 
-\section{What is a Game?}
+\section{Games}
+\subsection{What is a Game?}
 The existence of a discussion about what a game is, or whether some activity is actually a game may surprise those who stumble upon it for the first time. However, while studying games, it is important to understand what we are analyzing or what we are creating. For this, it is better that the concept of what defines a \enquote{game} is plain clear and that we know how far we are moving away from an \enquote{ideal game} when we are creating a new game \citep{XexeoGeraldoquesaoJogos2013}.
 
 Based on various definitions of games found in the literature and repeated in several introductory articles and also in the observation and detailed analysis of what happens when we play, the following definition of what a game is, can serve as a beacon for our study:
 
 \begin{displayquote}
-    Games are social and cultural voluntary activities, meaningful, strongly absorbing, non-productive, that use an abstract world with real-world negotiated effects, and whose development and final outcome is uncertain, where one or more players or teams of players, interactively and quantitatively modify the state of an artificial system, possibly in pursuit of conflicting goals, by means of decisions and actions, some with the capacity to disrupt the opponent, being the whole process regulated, oriented and limited by accepted rules, and thereby obtaining a psychological reward, usually in the form of entertainment, amusement, or a sense of victory over an adversary or challenge.
+	Games are social and cultural voluntary activities, meaningful, strongly absorbing, non-productive, that use an abstract world with real-world negotiated effects, and whose development and final outcome is uncertain, where one or more players or teams of players, interactively and quantitatively modify the state of an artificial system, possibly in pursuit of conflicting goals, by means of decisions and actions, some with the capacity to disrupt the opponent, being the whole process regulated, oriented and limited by accepted rules, and thereby obtaining a psychological reward, usually in the form of entertainment, amusement, or a sense of victory over an adversary or challenge.
 \end{displayquote}
 
 The reason for having a definition of what a game is is not to create a barrier between games and not games. What we want is to delimit in a fluid way what we consider a game. We may think that this definition is a big \enquote{or} of requisites. Thus, something totally ceases to be a game only when all conditions are broken  \citep{XexeoGeraldoquesaoJogos2013}.
 
-\section{Game Potential}
+\subsection{Game Potential}
 The high potential that games have in affecting players is mainly due to their ability of placing the player in a continuous mode of interaction, which develops complex cognitive, affective and behavioral responses \citep{YannakakisPlayerModeling2013}.
 
 Every game features at least one user (i.e., the player), who controls an avatar or a group of miniature entities in a virtual\textbackslash{}simulated environment \citep{CallejaIngameimmersionincorporation2011}.
@@ -22,8 +23,80 @@ The interaction between the player and the game context is of prime importance t
 
 The study of the player in games may not only contribute to the design of improved forms of Human Computer Interactions (HCI)\abbrev{HCI}{Human Computer Interaction}, but also advance our knowledge about human experiences.
 
-\section{Game Industry}
+\subsection{Game Industry}
 According to the Global Games Market Report \citep{NewGamingBoom} the gaming market has now 2.2 billion gamers across the globe with an expectation of generating \$116 billion in game revenues in 2017 \citep{GlobalGamesMarket}.
 
 It is a competitive market especially in terms of gameplay, which is something largely determined by the quality of a game’s AI.
 A game with a large variety of unique agent behaviors has a competitive advantage to a game with a few hand coded expert systems. In addition to being a preferred investment to developers it’s also a viable option on current hardware. Due to hardware advancements, processor cycles are easier to come by and memory is cheap.
+
+\section{Artificial Intelligence}
+\subsection{History}
+Can machines think? This is the main question regarding artificial intelligence (AI).
+
+In the first half of the 20th century, science fiction familiarized the world with the concept of artificially intelligent robots. It began with the “heartless” Tin man from the Wizard of Oz. By the 1950s, we had a generation of scientists, mathematicians, and philosophers with the concept of artificial intelligence (or AI) culturally assimilated in their minds. One such person was Alan Turing, a young British polymath who explored the mathematical possibility of artificial intelligence. Turing suggested that humans use available information as well as reason in order to solve problems and make decisions, so why can’t machines do the same thing? This was the logical framework of his 1950 paper, Computing Machinery and Intelligence \citep{TuringComputingMachineryIntelligence2009} in which he discussed how to build intelligent machines and how to test their intelligence.
+
+From that point on, computers needed to fundamentally change. Before 1949 computers lacked a key prerequisite for intelligence: they couldn’t store commands, only execute them. In other words, computers could be told what to do but couldn’t remember what they did. With advancements in this area, AI flourished from 1957 to 1974. Computers could store more information and became faster, cheaper, and more accessible. Machine learning algorithms also improved and people got better at knowing which algorithm to apply to their problems.
+
+Initial successes, as well as the advocacy of leading researchers convinced government agencies such as the Defense Advanced Research Projects Agency (DARPA) in the United States\abbrev{DARPA}{Defense Advanced Research Projects Agency} to fund AI research at several institutions. The government was particularly interested in a machine that could transcribe and translate spoken language as well as high throughput data processing.
+
+In the 1980’s, AI was reignited by two sources: an expansion of the algorithmic toolkit, and a boost of fun \enquote{deep learning} techniques got popularized which allowed computers to learn using experience. Expert systems which mimicked the decision making process of a human expert were also introduced. The program would ask an expert in a field how to respond in a given situation, and once this was learned for virtually every situation, non-experts could receive advice from that program.
+
+During the 1990s and 2000s, many of the landmark goals of artificial intelligence had been achieved. In 1997, reigning world chess champion and grand master Gary Kasparov was defeated by IBM’s Deep Blue, a chess playing computer program. In the same year, speech recognition software was implemented on Windows. This was another great step forward but in the direction of the spoken language interpretation endeavor. It seemed that there wasn’t a problem machines couldn’t handle.
+
+We haven’t gotten any smarter about how we are coding artificial intelligence, so what changed? It turns out, the fundamental limit of computer storage that was holding us back 30 years ago was no longer a problem.  , which estimates that the memory and speed of computers doubles every year, had finally caught up and in many cases, surpassed our needs. It offers a bit of an explanation to the roller coaster of AI research; we saturate the capabilities of AI to the level of our current computational power (computer storage and processing speed), and then wait for Moore’s Law to catch up again.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{artificialintelligencetimeline}
+	\caption{Artificial Intelligence Timeline}
+	\label{fig:pmc}
+\end{figure}
+
+We now live in the age of \enquote{big data} an age in which we have the capacity to collect huge sums of information too cumbersome for a person to process. The application of artificial intelligence in this regard has already been quite fruitful in several industries such as technology, banking, marketing, and entertainment. We’ve seen that even if algorithms don’t improve much, big data and massive computing simply allow artificial intelligence to learn through brute force. There may be evidence that Moore’s law is slowing down a tad, but the increase in data certainly hasn’t lost any momentum. Breakthroughs in computer science, mathematics, or neuroscience all serve as potential outs through the ceiling of Moore’s Law.
+
+So, what is in store for the future? In the immediate future, AI language is looking like the next big thing. In fact, it’s already underway. Today when we call a company, most of the time we directly spoke with a human. These days, machines are even calling us! One could imagine interacting with an expert system in a fluid conversation, or having a conversation in two different languages being translated in real time. We can also expect to see driverless cars on the road in the near future. In the long term, the goal is general intelligence, that is a machine that surpasses human cognitive abilities in all tasks. Even if the capability is there, the ethically would serve as a strong barrier against fruition. When that time comes (but better even before the time comes), we will need to have a serious conversation about machine policy and ethics, but for now, we’ll allow AI to steadily improve and run amok in society \citep{AnyohaRockwellHistoryArtificialIntelligence2017}.
+
+\subsection{AI in Player Modeling}
+Over the last years, with the increase in computers’ processing power, AI is receiving more attention as a fundamental feature and new techniques are constantly being proposed. One approach that is gaining attention is Player Modeling. It intends to understand and model players’ characteristics and behaviors during the game. This modeling allows games to customize their AI to specific players, making the game experience more interesting. Among the players characteristics that can be modeled are preferences and knowledge \citep{MachadoPlayermodelingcommon2011}.
+
+In a scenario in which AI is gradually receiving more attention from the game industry and lots of gameplay data are available for processing, customization is a feature that will become very relevant in the next years. Mainly because it is able to increase players' immersion and consequently the players' entertainment. A technique that may be underneath customization is player modeling.
+
+Among the several AI approaches, Player Modeling is gaining importance as an alternative for making games more adaptable and consequently, more challenging.
+
+For the experienced player, the AI is never good enough. It needs to keep challenging the player, to adapt to the player and if possible learn from the player.
+
+\section{Player Modeling}
+Player models are built on dynamic information obtained during game-player interaction\textbackslash{}sessions, but they could also rely on static player profiling information \citep{YannakakisPlayerModeling2013}.
+The core components of a player model are depicted in Figure \ref{fig:pmc}. It includes the computational model itself and methods to derive it as well as the model’s input and output.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{playermodelcomponents}
+	\caption{Player Model components}
+	\label{fig:pmc}
+\end{figure}
+
+It’s trivial to detect behavioral, emotional or cognitive aspects of either a human player or a non-player character (NPC).\abbrev{NPC}{Non-Player Character}
+In principle, there is no need to model an NPC, for two reasons:
+
+\begin{enumerate}
+	\item an NPC is coded, therefore a perfect model for it exists in the game’s code, and is known by the game’s developers; and
+	\item one can hardly say that an NPC possesses actual emotions or cognition.
+\end{enumerate}
+
+By clustering the available approaches for player modeling, we are faced with either model-based or model-free  approaches as well as potential hybrids between them \citep{YannakakisPlayerModeling2013}.
+
+\subsection{Top-down (model-based)}
+A top-down approach is based and built on a theoretical framework such as the usability theory \citep{Gameusabilityjnd}.
+Researchers follow the modus operandi of the humanities and social sciences, which hypothesize models to explain phenomena, usually followed by an empirical phase\footnote{Empirical means based on, concerned with, or verifiable by observation or experience rather than theory or pure logic. A naive observer might indeed conjecture that science owes its special status because it pays close attention to observed phenomena (the empirical data) and draws whatever conclusions these phenomena inductively warrant (empirical confirmation) \citep{StrevensWhatEmpiricalTesting}.} in which they experimentally determine to what extent the hypothesized models fit.
+
+Moreover, there are theories that are driven by game design, such as Malone’s design components for ‘fun’ games \citep{MaloneWhatMakesThings1980} and Koster’s theory of fun \citep{TheoryFunGame}.
+
+Several top-down difficulty and challenge measures have been proposed for different game genres as components of a player model. In all of these studies, difficulty adjustment is performed based on a player model that implies a direct link between challenge and ‘fun’ \citep{YannakakisPlayerModeling2013}.
+
+\subsection{Bottom-up (model-free)}
+A model-free approach refer to the construction of an unknown mapping or model between player input and a player state representation.
+Researchers follow the modus operandi of the exact sciences, in which observations are collected and analyzed to generate models without a strong initial assumption on what the model looks like or even what it captures. Player data and annotated player states are collected and used to derive the model. In a later stage, classification, regression and preference learning techniques adopted from machine learning or statistical approaches are commonly used for the construction of a computational model  \citep{YannakakisPlayerModeling2013}. In model-free approaches we meet attempts to model and predict player actions and intentions. Data mining efforts are put into use to identify different behavioral playing patterns within a game.
+
+\subsection{Hybrids}
+The space between a model-based and a model-free approach can be viewed as a continuum along which any player modeling approach might be placed. While a completely model-based approach relies solely on a theoretical framework that maps a player’s responses to game stimuli, a completely model-free approach assumes there is an unknown function between modalities of user input and player states that a machine learning algorithm (or a statistical model) may discover, but does not assume anything about the structure of this function. Relative to these extremes, the vast majority of the existing works on player modeling may be viewed as hybrids between the two ends of the spectrum, containing elements of both approaches \citep{YannakakisPlayerModeling2013}.

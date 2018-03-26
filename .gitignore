@@ -39,6 +39,7 @@ sysinfo.txt
 # LaTeX
 ## Core latex/pdflatex auxiliary files:
 *.aux
+*.abx
 *.lof
 *.log
 *.lot

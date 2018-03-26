@@ -13,40 +13,8 @@ The successful design of player experience can make the difference between a gam
 
 The primary goal of player modeling and player experience research is to understand how the interaction with a game is experienced by individual players. Thus, while games can be utilized as an arena for eliciting, evaluating, expressing and even synthesizing experience, one of the main aims of the study of players in games is the understanding of players’ cognitive, affective and behavioral patterns. Indeed, by the nature of what constitutes a game, one cannot dissociate games from player experience \citep{YannakakisPlayerModeling2013}.
 
+Basically, player modeling consists in modeling the player characteristics and behaviors during the game in order to improve some game aspect. A more formal definition, discussed in \citep{MachadoPlayermodelingcommon2011, HerikAdvancesComputerGames2006}, considers player modeling as \enquote{an abstract description of the current state of a player at a moment. This description can be done in several ways like satisfaction, knowledge, position and strategy}.
+
 In summary, player modeling is the study of computational means for the modeling of player cognitive, behavioral, and affective states which are based on data (or theories) derived from the interaction of a human player with a game \citep{YannakakisGameAIRevisited2012}.
 
-\section{Player Modeling}
-Player models are built on dynamic information obtained during game-player interaction\textbackslash{}sessions, but they could also rely on static player profiling information \citep{YannakakisPlayerModeling2013}.
-The core components of a player model are depicted in Figure \ref{fig:pmc}. It includes the computational model itself and methods to derive it as well as the model’s input and output.
-
-\begin{figure}
-    \centering
-      \includegraphics[width=0.75\textwidth]{playermodelcomponents}
-      \caption{Player Model components}
-      \label{fig:pmc}
-  \end{figure}
-
-  It’s trivial to detect behavioral, emotional or cognitive aspects of either a human player or a non-player character (NPC).\abbrev{NPC}{Non-Player Character}
-  In principle, there is no need to model an NPC, for two reasons:
-  
-  \begin{enumerate}
-    \item an NPC is coded, therefore a perfect model for it exists in the game’s code, and is known by the game’s developers; and
-    \item one can hardly say that an NPC possesses actual emotions or cognition.
-  \end{enumerate}
-  
-By clustering the available approaches for player modeling, we are faced with either model-based or model-free  approaches as well as potential hybrids between them \citep{YannakakisPlayerModeling2013}.
-
-\subsection{Top-down (model-based)}
-A top-down approach is based and built on a theoretical framework such as the usability theory \citep{Gameusabilityjnd}.
-Researchers follow the modus operandi of the humanities and social sciences, which hypothesize models to explain phenomena, usually followed by an empirical phase\footnote{Empirical means based on, concerned with, or verifiable by observation or experience rather than theory or pure logic. A naive observer might indeed conjecture that science owes its special status because it pays close attention to observed phenomena (the empirical data) and draws whatever conclusions these phenomena inductively warrant (empirical confirmation) \citep{StrevensWhatEmpiricalTesting}.} in which they experimentally determine to what extent the hypothesized models fit.
-
-Moreover, there are theories that are driven by game design, such as Malone’s design components for ‘fun’ games \citep{MaloneWhatMakesThings1980} and Koster’s theory of fun \citep{TheoryFunGame}.
-
-Several top-down difficulty and challenge measures have been proposed for different game genres as components of a player model. In all of these studies, difficulty adjustment is performed based on a player model that implies a direct link between challenge and ‘fun’ \citep{YannakakisPlayerModeling2013}.
-
-\subsection{Bottom-up (model-free)}
-A model-free approach refer to the construction of an unknown mapping or model between player input and a player state representation.
-Researchers follow the modus operandi of the exact sciences, in which observations are collected and analyzed to generate models without a strong initial assumption on what the model looks like or even what it captures. Player data and annotated player states are collected and used to derive the model. In a later stage, classification, regression and preference learning techniques adopted from machine learning or statistical approaches are commonly used for the construction of a computational model  \citep{YannakakisPlayerModeling2013}. In model-free approaches we meet attempts to model and predict player actions and intentions. Data mining efforts are put into use to identify different behavioral playing patterns within a game.
-
-\subsection{Hybrids}
-The space between a model-based and a model-free approach can be viewed as a continuum along which any player modeling approach might be placed. While a completely model-based approach relies solely on a theoretical framework that maps a player’s responses to game stimuli, a completely model-free approach assumes there is an unknown function between modalities of user input and player states that a machine learning algorithm (or a statistical model) may discover, but does not assume anything about the structure of this function. Relative to these extremes, the vast majority of the existing works on player modeling may be viewed as hybrids between the two ends of the spectrum, containing elements of both approaches \citep{YannakakisPlayerModeling2013}.
+\improvement[inline]{TODO: mention the methodology, as well as its scope and significance;}
