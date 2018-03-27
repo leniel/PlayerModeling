@@ -38,8 +38,8 @@
         {
             "name": "latexmk",
             "tools": [
-                "latexmk-nopdfview",
-                "makeindex",
+                //"latexmk-nopdfview",
+                //"makeindex",
                 "latexmk"
             ]
         }

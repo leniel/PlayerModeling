@@ -100,3 +100,47 @@ Researchers follow the modus operandi of the exact sciences, in which observatio
 
 \subsection{Hybrids}
 The space between a model-based and a model-free approach can be viewed as a continuum along which any player modeling approach might be placed. While a completely model-based approach relies solely on a theoretical framework that maps a player’s responses to game stimuli, a completely model-free approach assumes there is an unknown function between modalities of user input and player states that a machine learning algorithm (or a statistical model) may discover, but does not assume anything about the structure of this function. Relative to these extremes, the vast majority of the existing works on player modeling may be viewed as hybrids between the two ends of the spectrum, containing elements of both approaches \citep{YannakakisPlayerModeling2013}.
+
+\subsection{Taxonomies}
+
+Taxonomies are important guiders that show us available paths to follow. They try to define, name and then group similar characteristics and features of the studied subject. As such, \citep{MachadoPlayermodelingcommon2011} defines a possible taxonomy for player modeling.
+
+\begin{table}[htb]
+	\centering
+	\caption{Player Modeling Taxonomy Summary by \citep{MachadoPlayermodelingcommon2011}}
+	\label{table: Taxonomy 1}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabulary}{\textwidth}{ c | c | c | c | c | c }
+			\thead{Description} &
+			\thead{Categories} &
+			\thead{Goals} &
+			\thead{Applications} &
+			\thead{Methods} &
+			\thead{Implementation} \\ \hline
+			Knowledge & \makecell{Online \\ Tracking} & Collaboration & \makecell{Speculation in \\ Search} & \makecell{Action \\ Modeling} & Explicit \\ \hline
+			Position & \makecell{Online Strategy \\ Recognition} & Adversarial & Tutoring & \makecell{ Preference \\ Modeling} & Implicit \\ \hline
+			Strategy & \makecell{Off-line \\ Review} & Storytelling & Training & \makecell{Position \\ Modeling} \\ \hline
+			Satisfaction & & & Substitution & \makecell{Knowledge \\ Modeling} & \\ \hline
+		\end{tabulary}}
+\end{table}
+
+This taxonomy can be explained through a set of questions related to a research in player modeling. The following questions
+are going to be used as a guideline since answering them implies in an advance in the understanding of the project at hand.
+
+\begin{enumerate}
+	\item What the model is going to describe?
+	\item When is the data going to be processed?
+	      \begin{enumerate}
+		      \item if the data is processed and attempts to predict actions are made all the time, this is called online tracking;
+		      \item if the data is processed in batches during the game while observing a set of actions, this is called online strategy recognition;
+		      \item if the whole game data is processed afterwards, this is called an off-line review.
+	      \end{enumerate}
+	\item What is the expected goal\textbackslash{}outcome with Player Modeling?
+	\item What gameplay activity the model is going to improve?
+	\item What models are going to be used to generate an understanding about the agent?
+	\item What is the interface between the algorithms and the game in which the model is going to be used?
+	\begin{enumerate}
+		\item if the source code is available, program it explicitly;
+		\item if the platform only offers scripting languages or other interfaces, program it implicitly.
+	\end{enumerate}
+\end{enumerate}
