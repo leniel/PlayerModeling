@@ -102,13 +102,12 @@ Researchers follow the modus operandi of the exact sciences, in which observatio
 The space between a model-based and a model-free approach can be viewed as a continuum along which any player modeling approach might be placed. While a completely model-based approach relies solely on a theoretical framework that maps a player’s responses to game stimuli, a completely model-free approach assumes there is an unknown function between modalities of user input and player states that a machine learning algorithm (or a statistical model) may discover, but does not assume anything about the structure of this function. Relative to these extremes, the vast majority of the existing works on player modeling may be viewed as hybrids between the two ends of the spectrum, containing elements of both approaches \citep{YannakakisPlayerModeling2013}.
 
 \subsection{Taxonomies}
+Taxonomies are important guiders that show us available paths to follow. They try to define, name and then group similar characteristics and features of the studied subject. As such, \citep{MachadoPlayermodelingcommon2011} defines a possible taxonomy for player modeling according to \ref{table:taxonomy1}.
 
-Taxonomies are important guiders that show us available paths to follow. They try to define, name and then group similar characteristics and features of the studied subject. As such, \citep{MachadoPlayermodelingcommon2011} defines a possible taxonomy for player modeling.
-
-\begin{table}[htb]
+\begin{table}[ht]
 	\centering
 	\caption{Player Modeling Taxonomy Summary by \citep{MachadoPlayermodelingcommon2011}}
-	\label{table: Taxonomy 1}
+	\label{table:taxonomy1}
 	\resizebox{\textwidth}{!}{%
 		\begin{tabulary}{\textwidth}{ c | c | c | c | c | c }
 			\thead{Description} &
@@ -124,8 +123,7 @@ Taxonomies are important guiders that show us available paths to follow. They tr
 		\end{tabulary}}
 \end{table}
 
-This taxonomy can be explained through a set of questions related to a research in player modeling. The following questions
-are going to be used as a guideline since answering them implies in an advance in the understanding of the project at hand.
+This taxonomy can be explained through a set of questions related to a research in player modeling. The following questions are going to be used as a guideline since answering them implies in an advance in the understanding of the project at hand.
 
 \begin{enumerate}
 	\item What the model is going to describe?
@@ -139,8 +137,34 @@ are going to be used as a guideline since answering them implies in an advance i
 	\item What gameplay activity the model is going to improve?
 	\item What models are going to be used to generate an understanding about the agent?
 	\item What is the interface between the algorithms and the game in which the model is going to be used?
-	\begin{enumerate}
-		\item if the source code is available, program it explicitly;
-		\item if the platform only offers scripting languages or other interfaces, program it implicitly.
-	\end{enumerate}
+	      \begin{enumerate}
+		      \item if the source code is available, program it explicitly;
+		      \item if the platform only offers scripting languages or other interfaces, program it implicitly.
+	      \end{enumerate}
 \end{enumerate}
+
+In contrast and attempting to better organize and give a north when it comes to player modeling, \citep{SmithInclusiveTaxonomyPlayer} propose a different set of categories in which player models can be grouped. As they say, to help resolve the relationships between existing techniques, we need a set of terms that can be defined on
+their own. They organized the keys terms according to table \ref{table:taxonomy2}.
+
+\begin{table}[ht]
+	\centering
+	\caption{Player Modeling Taxonomy Summary by \citep{SmithInclusiveTaxonomyPlayer}}
+	\label{table:taxonomy2}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabulary}{\textwidth}{ l | l | l | l }
+			\thead{Scope} &
+			\thead{Purpose} &
+			\thead{Domain} &
+			\thead{Source} \\ \hline
+			\makecell[tl]{\textbf{\textit{Individual}} \\ applicable only to \\ one player} & \makecell[tl]{\textbf{\textit{Generative}} \\ literally produces \\ details in place of \\ a human player} & \makecell[tl]{\textbf{\textit{Game Actions}} \\ details recorded \\ inside of the game’s \\ rule system} & \makecell[tl]{\textbf{\textit{Induced}} \\ learned/fit/recorded \\ by algorithmic means} \\
+
+			\makecell[tl]{\textbf{\textit{Class}} \\ applicable to a \\ sub-population} & \makecell[tl]{\textbf{\textit{Descriptive}} \\ conveys a high-level \\ description, usually \\ visually or \\ linguistically} & \makecell[tl]{\textbf{\textit{Human Reactions}} \\ details observable in \\ the player as a result \\ of play} & \makecell[tl]{\textbf{\textit{Interpreted}} \\ concluded via \\ fuzzy/subjective \\ reasoning from \\ records} \\
+
+			\makecell[tl]{\textbf{\textit{Universal}} \\ applicable to \\ all players} & & & \makecell[tl]{\textbf{\textit{Analytic}} \\ derived purely from \\ the game’s rules and \\ related models } \\
+
+			\makecell[tl]{\textbf{\textit{Hypothetical}} \\ unlikely to be \\ applicable to \\ any players, \\ but interesting \\ nonetheless } & & & \makecell[tl]{\textbf{\textit{Synthetic}} \\ justified by reference \\ to an internal belief or \\ external theory } \\
+
+		\end{tabulary}}
+\end{table}
+
+For each facet (column), choose one selection, and the resulting labels will compactly describe a kind of player modeling such as “Universal Analytic Generative Action” player models.
